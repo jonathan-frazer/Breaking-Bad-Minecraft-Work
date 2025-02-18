@@ -1,0 +1,1 @@
+scoreboard players reset @a[scores={SRXKrystalUse=..10}] SRXKrystalUse

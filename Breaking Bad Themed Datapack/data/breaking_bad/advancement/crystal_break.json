@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "break_meth_pane": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "entity": {
+          "type": "minecraft:slime",
+          "team": "Intangible",
+          "nbt": "{CustomName:'\"bb_whitePaneKrystal\"'}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "breaking_bad:krystal/break"
+  }
+}

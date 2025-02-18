@@ -1,10 +1,20 @@
 {
  "parent": "item/handheld",
- "textures": {
+	"textures": {
   "layer0": "item/knowledge_book"
  },
 
  "overrides": [
-  { "predicate": {"custom_model_data": 723143}, "model": "item/spc_atk/tidal_wave"}
+  {"predicate": {"custom_model_data": 1802249}, "model": "item/destroy_stage/invis"},
+  {"predicate": {"custom_model_data": 1802250}, "model": "item/destroy_stage/0"},
+  {"predicate": {"custom_model_data": 1802251}, "model": "item/destroy_stage/1"},
+  {"predicate": {"custom_model_data": 1802252}, "model": "item/destroy_stage/2"},
+  {"predicate": {"custom_model_data": 1802253}, "model": "item/destroy_stage/3"},
+  {"predicate": {"custom_model_data": 1802254}, "model": "item/destroy_stage/4"},
+  {"predicate": {"custom_model_data": 1802255}, "model": "item/destroy_stage/5"},
+  {"predicate": {"custom_model_data": 1802256}, "model": "item/destroy_stage/6"},
+  {"predicate": {"custom_model_data": 1802257}, "model": "item/destroy_stage/7"},
+  {"predicate": {"custom_model_data": 1802258}, "model": "item/destroy_stage/8"},
+  {"predicate": {"custom_model_data": 1802259}, "model": "item/destroy_stage/9"}
  ]
 }
