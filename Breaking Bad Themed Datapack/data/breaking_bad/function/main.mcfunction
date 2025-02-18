@@ -1,2 +1,3 @@
-#Výtažek z Duší
-execute as @e[type=item,nbt={Item:{id:"minecraft:glass_bottle",count:1}}] at @s if entity @n[distance=..1,type=item,nbt={Item:{id:"minecraft:soul_sand",count:1}}] if block ~ ~ ~ water_cauldron run function breaking_bad:craft/brown_potion
+#Crafting
+    #Ametystový Prášek
+    execute as @e[type=item,nbt={Item:{id:"minecraft:amethyst_shard",count:1}}] at @s if block ~ ~-0.5 ~ grindstone run function breaking_bad:craft/amethyst_dust

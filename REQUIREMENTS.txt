@@ -1,0 +1,24 @@
+Hello!
+Me and my friends have a Minecraft SMP and we thought it would be fun to make a Breaking Bad themed datapack. The items in the datapack would be in czech, if possible.
+The datapack would add a recipe for an item called "Krystal Duší", which adds short-term positive effects, but is highly addictive.
+
+Here are some details about the datapack:
+
+The Recipe
+- Throw 1 soul sand and an empty bottle in a cauldron with water.
+- Soul sand and bottle will turn into an item called "Výtažek z Duší" (a light brown-ish potion that gives nausea III and poison II for 10 seconds after drinking).
+- Throw 1 amethyst shard on a grindstone to make "Ametystový Prášek" (Glowstone dust with an enchantment glint).
+- Throw 1 Výtažek z Duší, 1 "Ametystový Prášek" and 1 bone meal on a smithing table.
+- The three items will combine and turn into a white glass pane that lies on the smithing table (could be a block entity).
+- The white glass pane then gets broken up by getting hit and drops "Krystal Duší" (prismarine crystal with an enchantment glint).
+
+"Krystal Duší" can be consumed by holding it and shifting for a few seconds. The person who consumes it gets following effects for two minutes:
+- Haste 2
+- Speed 2
+- Jump Boost
+- Strength
+- Glowing
+
+Additionally, by throwing "Krystal Duší" and a potion of poison on the ground, it will combine and create "Krystal Duši" (with a spelling mistake).
+The item will provide the same effects, but will insta-kill the person who consumes it after 5 minutes
+
