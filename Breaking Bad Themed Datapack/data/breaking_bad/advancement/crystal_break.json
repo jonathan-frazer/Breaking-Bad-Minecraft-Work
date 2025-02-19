@@ -7,7 +7,7 @@
           "type": "minecraft:player"
         },
         "entity": {
-          "type": "minecraft:slime",
+          "type": "minecraft:cow",
           "team": "Intangible",
           "nbt": "{CustomName:'\"bb_whitePaneKrystal\"'}"
         }

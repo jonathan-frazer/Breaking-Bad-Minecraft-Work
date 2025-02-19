@@ -10,5 +10,8 @@
     execute as @e[type=item,nbt={Item:{id:"minecraft:prismarine_shard",count:1,components:{"minecraft:custom_data":{BreakingBad:1b}}}}] at @s if entity @n[distance=..1,type=item,nbt={Item:{count:1,components:{"minecraft:potion_contents":{potion:"minecraft:strong_poison"}}}}] run function breaking_bad:craft/krystal_poison
     execute as @e[type=item,nbt={Item:{id:"minecraft:prismarine_shard",count:1,components:{"minecraft:custom_data":{BreakingBad:1b}}}}] at @s if entity @n[distance=..1,type=item,nbt={Item:{count:1,components:{"minecraft:potion_contents":{potion:"minecraft:long_poison"}}}}] run function breaking_bad:craft/krystal_poison
 
+#Checking for smithing Table
+    execute as @e[type=item_display,name="bb_krystalCracker"] at @s unless block ~ ~-0.1 ~ minecraft:smithing_table run function breaking_bad:krystal/destroy
+
 #Cycle every Second
 schedule function breaking_bad:mainhalfsec 10t

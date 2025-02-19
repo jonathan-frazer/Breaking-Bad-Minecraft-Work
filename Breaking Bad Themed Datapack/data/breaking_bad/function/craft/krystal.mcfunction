@@ -15,4 +15,4 @@ execute align xyz run summon item_display ~ ~ ~ {CustomName:'"bb_krystalCracker"
 scoreboard players set @n[type=item_display,name="bb_krystalCracker"] SRXCrack 1802249
 
 #Creating Hitbox for the Glass Pane
-execute align xyz run summon slime ~0.5 ~-0.605 ~0.5 {Silent:1b,Team:"Intangible",NoAI:1b,NoGravity:1b,CustomName:'"bb_whitePaneKrystal"',active_effects:[{id:"minecraft:resistance",amplifier:25,duration:-1,show_particles:0b,show_icon:0b,ambient:1b},{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],CustomNameVisible:false,Size:1}
+execute align xyz run summon cow ~0.5 ~-0.9 ~0.5 {Silent:1b,Team:"Intangible",NoAI:1b,NoGravity:1b,CustomName:'"bb_whitePaneKrystal"',active_effects:[{id:"minecraft:resistance",amplifier:25,duration:-1,show_particles:0b,show_icon:0b,ambient:1b},{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b,show_icon:0b,ambient:1b}],CustomNameVisible:false}
